@@ -1,0 +1,75 @@
+AI-DATA-AGENT
+│
+├── app.py
+│   └── Streamlit Application Interface
+│       ├── Dataset Upload
+│       ├── Data Preview
+│       ├── Profiling Dashboard
+│       ├── Quality Analysis Dashboard
+│       ├── Quality Score Display
+│       ├── Data Visualization
+│       └── AI Generated Insights
+│
+├── assets/
+│   ├── banner.png
+│   └── logo.png
+│
+├── services/
+│   │
+│   ├── __init__.py
+│   │   └── Python Package Initialization
+│   │
+│   ├── profiler.py
+│   │   └── Data Profiling Engine
+│   │       ├── CSV Loading
+│   │       ├── Dataset Preview
+│   │       ├── Row & Column Analysis
+│   │       ├── Data Type Detection
+│   │       ├── Memory Usage Calculation
+│   │       └── Missing Value Analysis
+│   │
+│   ├── quality.py
+│   │   └── Data Quality Analysis Engine
+│   │       ├── Duplicate Detection
+│   │       ├── Constant Column Detection
+│   │       ├── Missing Data Analysis
+│   │       └── Outlier Detection
+│   │
+│   ├── score.py
+│   │   └── Data Quality Scoring Engine
+│   │       ├── Completeness Score
+│   │       ├── Uniqueness Score
+│   │       ├── Consistency Score
+│   │       ├── Validity Score
+│   │       └── Overall Quality Score
+│   │
+│   ├── charts.py
+│   │   └── Data Visualization Engine
+│   │       ├── Missing Value Charts
+│   │       ├── Distribution Analysis
+│   │       └── Correlation Analysis
+│   │
+│   ├── llm.py
+│   │   └── AI Insight Generation Engine
+│   │       ├── Dataset Context Creation
+│   │       ├── Quality Report Generation
+│   │       └── AI Recommendations using Ollama LLM
+│   │
+│   └── report.py
+│       └── Automated Report Generator
+│           └── PDF Report Generation (Phase 8)
+│
+├── uploads/
+│   └── User Uploaded CSV Files
+│
+├── exports/
+│   └── Generated Reports
+│
+├── requirements.txt
+│   └── Project Dependencies
+│
+├── README.md
+│   └── Project Documentation
+│
+└── .gitignore
+    └── Ignored Files Configuration
